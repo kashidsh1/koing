@@ -1,0 +1,40 @@
+
+#yum install git -y
+
+#git config --global user.name "Gaurav"
+#git config --global user.email "gauravkumar9130@gmail.com"
+
+Verfiy:
+#git config --list
+
+
+#mkdir project1
+#cd project1
+#git status
+#git init -> to initialize repository
+#vim file1.txt
+THIS IS FILE1
+#git status
+#git add . -> add file1.txt file in git
+#git status
+#git commit -a -m "file1 added"
+#git status
+
+Let's create new file:
+#vim file2.txt
+THIS IS FILE2
+#git status
+#git add . -> add all files in git
+#git status
+#git commit -a -m "file2 added"
+#git status
+
+Let's modify file1.txt:
+#vim file1.txt
+THIS IS FILE1 UPDATED
+#git add .
+#git commit -a -m "file1 updated"
+
+#git log -> to show all the commits history
+
+#git checkout <COMMIT ID> to rollback to particular commit
